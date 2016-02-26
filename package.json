@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Demo of GraphQL API with API Blueprint, Dredd and Apiary",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zdne/graphqlapi.git"
