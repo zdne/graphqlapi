@@ -1,0 +1,23 @@
+FORMAT: 1A
+
+# GraphQL API
+
+This API demonstrates how to describe and test a GraphQL endpoint in Apiary.
+
+See <http://graphql.org/docs/getting-started/> for details on GraphQL.
+
+## GraphQL [/graphql{?query}]
+- Parameters
+    - query:`{user(id:%221%22){name}}` (string, required) - The QraphQL query string.
+
+### Run Query [GET]
+
+- Response 200 (application/json)
+
+        {
+          "data": {
+            "user": {
+              "name": "Dan"
+            }
+          }
+        }

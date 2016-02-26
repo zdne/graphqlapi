@@ -1,0 +1,24 @@
+{
+  "name": "graphqlapi",
+  "version": "1.0.0",
+  "description": "Demo of GraphQL API with API Blueprint, Dredd and Apiary",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdne/graphqlapi.git"
+  },
+  "author": "Zdenek Nemec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zdne/graphqlapi/issues"
+  },
+  "homepage": "https://github.com/zdne/graphqlapi#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-graphql": "^0.4.9",
+    "graphql": "^0.4.18"
+  }
+}
