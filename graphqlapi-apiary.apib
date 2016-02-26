@@ -2,15 +2,17 @@ FORMAT: 1A
 
 # GraphQL API
 
-This API demonstrates how to describe and test a GraphQL endpoint in Apiary.
-
-See <http://graphql.org/docs/getting-started/> for details on GraphQL.
+This API demonstrates how to describe a GraphQL using API Blueprint.
+This API Bluperint describes example API as found at <http://graphql.org/docs/getting-started/>.
 
 ## GraphQL [/graphql{?query}]
+GraphQL resource.
+
 - Parameters
     - query:`{ user(id: "1") { name } }` (string, required) - The QraphQL query string.
 
 ### Run Query [GET]
+Runs a GraphQL query.
 
 - Response 200 (application/json; charset=utf-8)
 
