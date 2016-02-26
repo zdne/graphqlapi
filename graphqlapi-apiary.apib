@@ -8,11 +8,11 @@ See <http://graphql.org/docs/getting-started/> for details on GraphQL.
 
 ## GraphQL [/graphql{?query}]
 - Parameters
-    - query:`{user(id:%221%22){name}}` (string, required) - The QraphQL query string.
+    - query:`{ user(id: "1") { name } }` (string, required) - The QraphQL query string.
 
 ### Run Query [GET]
 
-- Response 200 (application/json)
+- Response 200 (application/json; charset=utf-8)
 
         {
           "data": {

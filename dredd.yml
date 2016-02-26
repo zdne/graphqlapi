@@ -1,0 +1,27 @@
+reporter: apiary
+custom:
+  apiaryApiKey: 94658bddcadb6f942065ade605d92dbc
+  apiaryApiName: graphqlapi
+dry-run: null
+hookfiles: null
+language: nodejs
+sandbox: false
+server: node app.js
+server-wait: 3
+init: false
+names: false
+only: []
+output: []
+header: []
+sorted: false
+user: null
+inline-errors: false
+details: false
+method: []
+color: true
+level: info
+timestamp: false
+silent: false
+path: []
+blueprint: graphqlapi-apiary.apib
+endpoint: 'http://localhost:3000'
